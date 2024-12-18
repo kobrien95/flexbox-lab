@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="destinations">
+          <p>My Web Design Site</p>
+          <p>Learn Design</p>
+          <p>Find Inspiration</p>
+          <p>Get Hired</p>
+        </div>
+        <div id="actions">
+          <p>🔍</p>
+          <p>Sign in</p>
+          <button>Sign up</button>
+        </div>
+      </nav>
+      <section id="hero">
+        <div id="headers">
+          <h1>Explore the world's best web designs.</h1>
+          <h2>Created by top-rated design and creative professionals.</h2>
+        </div>
+        <input type="text" placeholder="Search..."/>
+        <div id="trending">
+          Trending searches
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+          <p>Content</p>
+        </div>
+      </section>
+      <div id="subnav">
+        <button id="sort">Popular</button>
+        <button id="filter">Filter</button>
+      </div>
+      <main>
+        <article class="card">
+          <div class="img-placeholder"></div>
+          <div class="card-footer">
+            <h3>Team</h3>
+            <p>❤️ XX 👁️ XX</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="img-placeholder"></div>
+          <div class="card-footer">
+            <h3>Team</h3>
+            <p>❤️ XX 👁️ XX</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="img-placeholder"></div>
+          <div class="card-footer">
+            <h3>Team</h3>
+            <p>❤️ XX 👁️ XX</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="img-placeholder"></div>
+          <div class="card-footer">
+            <h3>Team</h3>
+            <p>❤️ XX 👁️ XX</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="img-placeholder"></div>
+          <div class="card-footer">
+            <h3>Team</h3>
+            <p>❤️ XX 👁️ XX</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="img-placeholder"></div>
+          <div class="card-footer">
+            <h3>Team</h3>
+            <p>❤️ XX 👁️ XX</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="img-placeholder"></div>
+          <div class="card-footer">
+            <h3>Team</h3>
+            <p>❤️ XX 👁️ XX</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="img-placeholder"></div>
+          <div class="card-footer">
+            <h3>Team</h3>
+            <p>❤️ XX 👁️ XX</p>
+          </div>
+        </article>
+      </main>     
+</body>
+</html>
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: white;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #destinations {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  #actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #headers, input {
+    margin: auto;
+  }
+
+  #trending {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+  }
+
+  #subnav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+  }
+
+  .card {
+    display: flex;
+  }
